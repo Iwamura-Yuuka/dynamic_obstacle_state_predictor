@@ -19,9 +19,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## catkin specific configuration ##
 ###################################
 catkin_package(
-  INCLUDE_DIRS include
-  LIBRARIES dynamic_obstacle_state_calculator
-#  CATKIN_DEPENDS nav_msgs std_msgs
+ INCLUDE_DIRS include
+ LIBRARIES dynamic_obstacle_state_calculator
+#  CATKIN_DEPENDS roscpp std_msgs
 #  DEPENDS system_lib
 )
 
